@@ -1,0 +1,180 @@
+
+    *, ::after, ::before{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+          body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  #tools {
+    /*border: 1px solid #888;*/
+     border-radius: 4px;
+     padding: 0.5em 1em;
+     position: relative;
+     min-height: 27px;
+   }
+   .onglet{
+     display: none;
+   }
+   
+   .onglet-active{
+     display: block;
+   }
+
+   /* bootstrap tabs */
+.nav-tabs{
+  width: 95%;
+  margin-left: 50px
+;
+
+}
+
+  #chartdiv{
+    width: 90%;
+    height: 400px;
+  }
+  
+  #chartdiv2 {
+    width: 90%;
+    height: 400px;
+  }
+  #chartdiv3{
+    width: 90%;
+    height: 400px;
+  }
+  
+  
+  header{
+    border: 1px solid #a19f9f;
+    width: 100%;
+    height: 40px;
+    grid-column: span 3;
+  }
+  
+  aside{
+    border: 1px solid #a19f9f;
+    width: 250px;
+    height: 100%;
+    padding: 5px;
+  }
+  
+  footer{
+    border: 1px solid #a19f9f;
+    width: 100%;
+    height: 40px;
+    grid-column: span 3;
+  }
+  
+  #container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr ;
+    grid-template-rows: auto 1fr auto ;
+  
+  }
+  
+  main h1{
+    grid-column: span 2;
+  }
+  
+  form .row{
+    margin-top: 10px;
+  }
+  
+   select{
+    height: 30px !important;
+  }
+  
+  .main-title{
+    width: 90%;
+    margin:10px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .transfert{
+    margin-left: 18px;
+    width: 600px !important;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-title button{
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid #a19f9f;
+  }
+  
+  .graph-botton{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+  }
+  
+  .graph-botton button{
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid #a19f9f;
+  }
+  
+  /* pays */
+  .pays{
+    width: 50px;
+      position: absolute;
+      left: 18rem;
+      top: 10rem;
+  }
+  
+  /* montant */
+  .montant{
+    position: absolute;
+      right: 3rem;
+      
+      bottom: 8rem ;
+  
+  }
+
+/*
+  body {
+    padding : 10px ;
+    
+  }
+  
+  #exTab1 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  
+  #exTab2 h3 {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  */
+  /* remove border radius for the tab */
+  /*
+  #exTab1 .nav-pills > li > a {
+    border-radius: 0;
+  }
+  
+  /* change border radius for the tab , apply corners on top*/
+ /* 
+  #exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+  }
+  
+  #exTab3 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }*/
+  
